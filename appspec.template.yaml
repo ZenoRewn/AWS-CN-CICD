@@ -4,6 +4,6 @@ Resources:
       Type: AWS::Lambda::Function
       Properties:
         Name: "zeno-cicd" # Specify the name of your Lambda function
-        Alias: "v2" # Specify the alias for your Lambda function
-        CurrentVersion: "v1" # Specify the current version of your Lambda function
-        TargetVersion: "v2" # Specify the version of your Lambda function to deploy
+        Alias: "v3" # Specify the alias for your Lambda function
+        CurrentVersion: "3" # Specify the current version of your Lambda function
+        TargetVersion: "1" # Specify the version of your Lambda function to deploy
